@@ -1,9 +1,7 @@
 ### Grey Image Reconstruction Using Principal Component Analysis
 #### Author: Maja Garbulinska
 
-This repository contains a simple example of image reconstruction using Principle Component Analysis (PCA). Principle Component Analysis is a technique used for both exploratory data analysis and dimentionality reduction. 
-
-You can learn more in [this cool tutorial](https://www.datacamp.com/community/tutorials/pca-analysis-r) I found. 
+This repository contains a simple example of image reconstruction using Principle Component Analysis (PCA). Principle Component Analysis is a technique used for both exploratory data analysis and dimentionality reduction. You can learn about PCA more in [this cool tutorial](https://www.datacamp.com/community/tutorials/pca-analysis-r) I found. 
 
 
 Here is an example of a cat image reconstruction done using the `ImageReconstruction.R` script you can find in this repository: 
