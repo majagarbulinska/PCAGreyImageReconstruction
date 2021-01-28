@@ -46,6 +46,8 @@ reconstructedCat <- ggplot(exampleDF, aes(x,y))+
 
 ggsave("reconstructedCat.png", plot = reconstructedCat)
 ```
+#### The functions in more detail
+Whereas it is possible to just use the example code and reconstruct your own images, I have also explained the functions found in the script in more detail. 
 
 ##### The `PCA()` function
 Although R packages are available for PCA, my code in `ImageReconstruction.R` uses base R and linear algebra. Following the code of the `PCA()` function is a good way to understand what actually happens in a PCA algorithm. 
