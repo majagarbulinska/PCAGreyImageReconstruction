@@ -85,5 +85,5 @@ MyReconstructedDF <- reconstructImageToDataFrame(cimgImage, k = 3)
 ```
 
 ##### The `createReconDF()` function
-This function takes the path to an image, reconstructs it using the given number of principle components and outputs a dataframe ready for ploting using the `ggplot2`.
+This function takes the path to an image, reconstructs it using the given number of principle components and outputs a dataframe ready for ploting using the `ggplot2` package. 
 
