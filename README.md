@@ -86,12 +86,6 @@ This function takes `cimg` object (check the `imager` package) and outputs the i
 MyReconstructedDF <- reconstructImageToDataFrame(cimgImage, k = 3)
 ```
 
-Futher part of the code requires the following libraries.
-
-```R
-library(imager) # to read the images and transform them to grayscale
-library(ggplot2) # to graph the results. 
-```
 ##### The `createReconDF()` function
 This function takes the path to an image, reconstructs it using the given number of principle components and outputs a dataframe ready for ploting using the `ggplot2`.
 
