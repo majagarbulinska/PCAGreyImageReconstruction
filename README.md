@@ -5,18 +5,21 @@ This repository contains a simple example of image reconstruction using Principl
 
 You can learn more in [this cool tutorial](https://www.datacamp.com/community/tutorials/pca-analysis-r) I found. 
 
-##### `ImageReconstruction.R`
-Although R packages are available for PCA, my code in `ImageReconstruction.R` uses base R and linear algebra. Following the code of the `PCA()` function is a good way to understand what actually happens in a PCA algorithm. 
 
-Here is an example of a cat image reconstruction done using the script: 
+Here is an example of a cat image reconstruction done using the `ImageReconstruction.R` script you can find in this repository: 
 
 ![A Reconstructed Cat](reconstructedCat.png?raw=true "A Reconstructed Cat")
+
+*Please note This script outputs grayscale images, but you can input either a grayscale image or an color image.*
+
+##### The `PCA()` function
+Although R packages are available for PCA, my code in `ImageReconstruction.R` uses base R and linear algebra. Following the code of the `PCA()` function is a good way to understand what actually happens in a PCA algorithm. 
 
 The function takes matrix and outputs the results of PCA in a list. You can use it as follows:
 ```R
 MyPCA <- PCA(yourmatrix)
 ```
-Now to access the results:
+To access the results:
 ```R
 # access F - the transpose of the initial data matrix:
 MyPCA$F
@@ -32,7 +35,8 @@ MyPCA$T
 MYPCA$varFrac
 ```
 
-
+##### The `reconstructionPCA()` function
+This function uses the previously described `PCA()` function to extract the information necessary to perform data reconstruction. You have to provide this function with the image in a matrix format. It will then 
 
 
 Futher part of the code requires the following libraries.
