@@ -8,6 +8,10 @@ You can learn more in [this cool tutorial](https://www.datacamp.com/community/tu
 ##### `ImageReconstruction.R`
 Although R packages are available for PCA, my code in `ImageReconstruction.R` uses base R and linear algebra. Following the code of the `PCA()` function is a good way to understand what actually happens in a PCA algorithm. 
 
+Here is an example of a cat image reconstruction done using the script: 
+
+![A Reconstructed Cat](reconstructedCat.png?raw=true "A Reconstructed Cat")
+
 The function takes matrix and outputs the results of PCA in a list. You can use it as follows:
 ```R
 MyPCA <- PCA(yourmatrix)
