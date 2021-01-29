@@ -6,7 +6,6 @@ library(ggplot2)
 PCA <- function(matrix){
   
   # standardize the input matrix and call it F
-  #F <- t(apply(matrix, MARGIN = 2, standardize))
   F <- t(matrix)
   
   # Compute the covariance matrix of F
